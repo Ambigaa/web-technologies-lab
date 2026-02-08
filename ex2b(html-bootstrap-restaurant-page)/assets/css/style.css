@@ -1,4 +1,4 @@
-/* PAGE LOADER (Bootstrap cannot do keyframes) */
+
 .loader {
     position: fixed;
     inset: 0;
@@ -22,7 +22,7 @@
     }
 }
 
-/* PARALLAX HERO (Bootstrap cannot do background images) */
+
 .hero {
     height: 100vh;
     background-image: url("../img/spice--sizzle.png"); 
@@ -62,7 +62,7 @@
     }
 }
 
-/* HOVER EFFECTS (Bootstrap has no hover scale) */
+
 .menu-item img,
 .gallery-img {
     transition: transform 0.3s ease;
@@ -76,7 +76,7 @@
     transform: scale(1.05);
 }
 
-/* NAV LINK TRANSITION */
+
 .nav-link-custom {
     transition: color 0.3s ease;
 }
